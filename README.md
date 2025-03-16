@@ -20,16 +20,16 @@
 
 ୨﹒˖˚ ────────  ⋆ ﹕🕷️ ﹕ ⋆  ──────── ˚˖﹒୧  
 
-📸 **»** **❛Script ara Unir Imágenes❜〟**
+📸 **»** **❛ Script ara Unir Imágenes ❜〟**
  
 **〃ー** ¿No es molesto tener que editar 80 imágenes de un solo capítulo de un manhwa, manga o manhua? Pues bien, este script en Python está aquí para facilitarte la vida. Te permite unir varias imágenes en una sola, agrupándolas de manera vertical. Ideal para quienes necesitan combinar muchas imágenes sin perder calidad, ahorrando tiempo y esfuerzo en el proceso. ¡Dile adiós a los editores manuales! 
 
-⚙️ **»** **❛Descripción❜〟** 
+⚙️ **»** **❛ Descripción ❜〟** 
 
 **〃ー** El script toma una carpeta con imágenes y las combina en imágenes más grandes, agrupándolas en conjuntos de **12** (puedes modificar este número). Las imágenes se guardan en una nueva carpeta llamada **`./salida`**.  
 Perfecto para organizar imágenes, crear collages o cualquier otro trabajo donde necesites juntar imágenes eficientemente.
 
-📋 **»** **❛Requisitos❜〟**  
+📋 **»** **❛ Requisitos ❜〟**  
 
 **〃ー** Antes de ejecutar el script, asegúrate de tener los siguientes requisitos:
 
@@ -39,9 +39,9 @@ Perfecto para organizar imágenes, crear collages o cualquier otro trabajo donde
 
   ```bash
   pip install Pillow
+```
 
-
-🔧 **»** **❛Instalación❜〟**
+🔧 **»** **❛ Instalación ❜〟**
 
 **〃ー**  Descargar el archivo del script (por ejemplo, unir_imagenes.py) y colócalo en una carpeta de tu elección.
 
@@ -59,7 +59,7 @@ Perfecto para organizar imágenes, crear collages o cualquier otro trabajo donde
 
 **〃ー**  IMAGENES_POR_UNION: Define cuántas imágenes se unirán en cada archivo final. El valor por defecto es 12.
 
-🖼️ **»** **❛Uso❛❜〟**
+🖼️ **»** **❛ Uso ❜〟**
 
 **〃ー** Coloca las imágenes que deseas unir en la carpeta ./imagenes.
 
@@ -71,7 +71,7 @@ Perfecto para organizar imágenes, crear collages o cualquier otro trabajo donde
 
 **〃ー**  ¡Listo! Encuentra las imágenes unidas en la carpeta ./salida.
 
-🚀 **»** **❛Características❜〟**
+🚀 **»** **❛ Características ❜〟**
 
 **〃ー** Agrupación automática: Agrupa las imágenes en bloques de hasta 12.
 
@@ -79,7 +79,7 @@ Perfecto para organizar imágenes, crear collages o cualquier otro trabajo donde
 
 **〃ー** Guardado automático: Los archivos combinados se guardan en la carpeta de salida.
 
-⚠️ **»** **❛Notas Importantes❜〟**
+⚠️ **»** **❛ Notas Importantes ❜〟**
 
 **〃ー** Las imágenes se ordenan alfabéticamente por su nombre de archivo.
 
@@ -89,7 +89,7 @@ Perfecto para organizar imágenes, crear collages o cualquier otro trabajo donde
 
 **〃ー** Asegúrate de tener suficiente espacio en tu disco para las imágenes resultantes.
 
-📂 **»** **❛Estructura del Proyecto❜〟**
+📂 **»** **❛ Estructura del Proyecto ❜〟**
 `
 ├── unir_imagenes.py    # Script principal
 ├── requirements.txt    # Dependencias necesarias
