@@ -1,0 +1,26 @@
+1️. Verificar que el archivo unir_imagenes.py existe
+
+Abre el Explorador de Archivos y ve a C:\Users\*TU USUARIO*\Desktop\Raw Editor\.
+Busca el archivo unir_imagenes.py.
+Si no está, crea uno nuevo con Bloc de notas y copia el código que te pasé.
+Asegúrate de guardarlo con la extensión .py y no como .txt.
+
+
+2. Verificar la ruta desde la terminal
+
+Abre una terminal (cmd) y navega hasta la carpeta correcta usando:
+
+cd "C:\Users\bauti\Desktop\Raw Editor\"
+Verifica que el archivo está ahí con:
+
+dir unir_imagenes.py
+
+Si aparece en la lista, sigue con el siguiente paso.
+Si no aparece, significa que el archivo no existe o tiene otro nombre.
+
+
+3. Ejecutar el script correctamente
+
+Si el archivo unir_imagenes.py sí existe, ejecútalo con:
+
+python unir_imagenes.py
