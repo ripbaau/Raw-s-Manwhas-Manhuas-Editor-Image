@@ -33,8 +33,8 @@ Perfecto para organizar imágenes, crear collages o cualquier otro trabajo donde
 
 **〃ー** Antes de ejecutar el script, asegúrate de tener los siguientes requisitos:
 
-**〃ー**  **Python 3.x**: Si no tienes Python instalado, descárgalo desde [python.org](https://www.python.org/).
-**〃ー**  **Librería Pillow**: Esta librería permite trabajar con imágenes en Python. Instálala ejecutando el siguiente comando:
+ **Python 3.x**: Si no tienes Python instalado, descárgalo desde [python.org](https://www.python.org/).
+**Librería Pillow**: Esta librería permite trabajar con imágenes en Python. Instálala ejecutando el siguiente comando:
 
   ```bash```
   ```pip install Pillow```
