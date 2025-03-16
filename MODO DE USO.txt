@@ -1,26 +1,55 @@
-1️. Verificar que el archivo unir_imagenes.py existe
+¡Bienvenido! Si has llegado hasta aquí, es porque necesitas unir varias imágenes de manera rápida y eficiente. Aquí te dejo una guía paso a paso para instalar y ejecutar el script en tu PC.
 
-Abre el Explorador de Archivos y ve a C:\Users\*TU USUARIO*\Desktop\Raw Editor\.
-Busca el archivo unir_imagenes.py.
-Si no está, crea uno nuevo con Bloc de notas y copia el código que te pasé.
-Asegúrate de guardarlo con la extensión .py y no como .txt.
+🧬 ー Paso 1: Instalar Python 🐍
+Para ejecutar el script, primero necesitas tener Python instalado en tu PC. Si no lo tienes, sigue estos pasos:
+◾ Visita la página oficial de Python: python.org.
+◾ Descarga la última versión de Python 3.x para tu sistema operativo (Windows, macOS o Linux).
+◾ Durante la instalación, asegúrate de marcar la casilla "Add Python to PATH" para que puedas ejecutar Python desde la línea de comandos.
+◾ Haz clic en "Instalar ahora" y sigue las instrucciones.
+◾ Para verificar que Python se instaló correctamente, abre la terminal o el símbolo del sistema y escribe:
 
+python --version
 
-2. Verificar la ruta desde la terminal
+Deberías ver algo como: Python 3.x.x. ✔️
 
-Abre una terminal (cmd) y navega hasta la carpeta correcta usando:
+🧬 ー Paso 2: Instalar la librería Pillow 📦
+◾ El script utiliza la librería Pillow para manejar imágenes. Asegúrate de instalarla antes de ejecutar el script.
+◾ Abre una terminal o el símbolo del sistema (cmd).
+◾ Ejecuta el siguiente comando para instalar Pillow:
 
-cd "C:\Users\bauti\Desktop\Raw Editor\"
-Verifica que el archivo está ahí con:
+pip install Pillow
 
-dir unir_imagenes.py
+◾ Este comando descargará e instalará Pillow en tu PC. 
 
-Si aparece en la lista, sigue con el siguiente paso.
-Si no aparece, significa que el archivo no existe o tiene otro nombre.
+🧬 ー Paso 3: Descargar el Script 📝
+◾ Descarga el archivo del script desde el repositorio de GitHub o el archivo ZIP proporcionado.
+◾ Guarda el archivo unir_imagenes.py en una carpeta en tu PC, por ejemplo, en una carpeta llamada Unir_Imágenes.
 
+🧬 ー Paso 4: Preparar las Imágenes 🖼️
+◾ Crea una carpeta dentro de la carpeta donde guardaste el script llamada imagenes.
+◾ Coloca todas las imágenes que quieras unir dentro de la carpeta imagenes.
+◾ Asegúrate de que las imágenes estén en un formato adecuado, como .jpg o .png. Si no están en estos formatos, conviértelas antes de ejecutar el script.
 
-3. Ejecutar el script correctamente
+🧬 ー Paso 5: Ejecutar el Script 🚀
+Abre la terminal o el símbolo del sistema en la carpeta donde guardaste el script.
 
-Si el archivo unir_imagenes.py sí existe, ejecútalo con:
+◾ En Windows, puedes hacer esto haciendo clic con el botón derecho en la carpeta del script y seleccionando "Abrir ventana de comandos aquí".
+◾ En macOS o Linux, abre una terminal y navega a la carpeta donde guardaste el archivo usando el comando cd.
+Ejecuta el script con el siguiente comando:
 
-python unir_imagenes.py
+ python unir_imagenes.py
+
+🧬 ー Paso 6: Ver las Imágenes Unidas 🎉
+El script comenzará a procesar las imágenes que colocaste en la carpeta imagenes y las unirá verticalmente.
+Las imágenes unidas se guardarán automáticamente en una nueva carpeta llamada salida, dentro de la misma carpeta que el script.
+Ve a la carpeta salida y encontrarás las imágenes combinadas. Cada archivo generado tendrá un nombre basado en la secuencia de imágenes que se combinaron.
+
+📍 ー Personalizar el Script (Opcional) ⚙️
+Si deseas personalizar el comportamiento del script, como cambiar el número de imágenes que se agrupan o modificar las carpetas de entrada y salida, puedes hacerlo abriendo el archivo unir_imagenes.py en un editor de texto (por ejemplo, Visual Studio Code o Notepad++). Los parámetros que puedes modificar son:
+
+◾ CARPETA_IMAGENES: Ruta de la carpeta donde están tus imágenes.
+◾ SALIDA_CARPETA: Ruta de la carpeta donde se guardarán las imágenes combinadas.
+◾ IMAGENES_POR_UNION: Número de imágenes que se agruparán en cada archivo final (el valor predeterminado es 12).
+
+🎉 ー ¡Y Eso es Todo! 
+Ahora tienes un script funcionando que unirá tus imágenes de manera rápida y eficiente. Si necesitas agregar más imágenes o modificar la configuración, solo repite los pasos anteriores.
